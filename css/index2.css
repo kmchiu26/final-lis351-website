@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Coolor color palette
+#e63946 red
+#f1faee beige
+#a8dadc light blue
+#457b9d medium blue
+#1d3557 dark blue
+*/
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: "Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'";
+	font-size: 18px;
+	color: #1D3557;
+	background-color: #F1FAEE;
+	}
+nav li {
+	display: flex; 
+  	justify-content: center; 
+  	align-items: center; 
+	}
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+	}
+
+li {
+  margin: 0 15px;
+	}
+a:link {
+	font-size: 26px;
+	text-decoration: none;
+	color: #1D3557;
+	}
+#intro {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 7%;
+	padding-top: 5%;
+	border-width: thin;
+	border-style: solid;
+	border-color:#1D3557;
+	border-radius: 20px;
+	width: 700px;
+	text-align: center;
+	}
+#bio {
+	display: inline;
+	margin-right: 15px;
+	}
+h1 {
+	font-family: "Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"";
+	font-size: 48px;
+	color: #E63946;
+	text-align: center;
+	}
+.wrapper {
+ width: 960px;
+ margin: 0px auto;
+}
+.entry {
+ width: 220px;
+ height: 198px;
+	float: left;
+	margin: 50px;
+	}
+figure {
+ width: 200px;
+ height: 170px;
+ padding: 20px;
+	display: inline;
+ text-align: left;
+	}
+ 
+figure img {
+ border: 1px solid #d6d6d6;
+	padding: 20px;
+	border-width: thin;
+	border-style: solid;
+	border-color:#1D3557;
+	border-radius: 20px;
+	}
+#parents {
+	position: relative;
+	left: 25px;
+}
+ 
+figcaption {
+	 padding-left: 20px;
+	}
+#resume {
+	margin: 0 auto;
+}
+#contact {
+	font-size: 26px;
+}
